@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hgsoft.mapper.SysrAreaMapper">
+
+    <insert id="save" parameterType="com.hgsoft.entity.SysrArea">
+        insert area (id, name) values (#{id}, #{name})
+    </insert>
+
+    <select id="findList" resultType="com.hgsoft.entity.SysrArea">
+        select * from area
+    </select>
+</mapper>

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://120.77.44.239:33306/test?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+      username: root
+      password: 123456
+      validationQuery: SELECT 'x'
