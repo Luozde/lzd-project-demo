@@ -1,5 +1,7 @@
 # SpringBoot jwt 接入Demo
 
+> JSON Web Token（JWT）是目前最流行的跨域身份验证解决方案之一
+
 ## 引入依赖
 
 ```xml
